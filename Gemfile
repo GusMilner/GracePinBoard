@@ -20,6 +20,10 @@ gem 'simple_form'
 gem 'devise'
 gem 'paperclip'
 gem 'masonry-rails'
+gem 'aws-sdk'
+gem 'fog'
+gem 'figaro'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
