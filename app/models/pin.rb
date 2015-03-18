@@ -3,7 +3,7 @@ class Pin < ActiveRecord::Base
 
 	has_attached_file :image, styles: { medium: "300x300>" }
 	validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
-	:url  => ":s3_domain_url",
+	:url  => "gracepinboard.s3-website-us-west-2.amazonaws.com",
     :path => "public/avatars/:id/:style_:basename.:extension",
     :storage => :fog,
     :fog_credentials => {
