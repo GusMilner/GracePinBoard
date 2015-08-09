@@ -20,7 +20,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'paperclip'
 gem 'masonry-rails'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 gem 'fog'
 gem 'figaro'
 
